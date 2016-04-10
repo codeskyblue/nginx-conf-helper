@@ -89,6 +89,11 @@ Quickly generate configuation file `jenkins.conf`
 	jenkins:
 	  server_name: jenkins.domain.dom
 	  proxy_pass: http://localhost:8080
+	foo:
+	  server_name:
+        - foo.io
+        - foo.org
+	  proxy_pass: http://localhost:8081
 	```
 
 2. convert to `jenkins.conf`
